@@ -20,6 +20,8 @@ import {
   WatchLater,
   ExitToApp
 } from '@mui/icons-material';
+import AssessmentIcon from '@mui/icons-material/Assessment';
+import QueryStatsIcon from '@mui/icons-material/QueryStats';
 
 const Navbar = () => {
   const dispatch = useDispatch();
@@ -71,9 +73,18 @@ const Navbar = () => {
         color="inherit"
         component={RouterLink}
         to="/market"
-        startIcon={<ShowChart />}
+        startIcon={<QueryStatsIcon />}
       >
         Market
+      </Button>
+      
+      <Button
+        color="inherit"
+        component={RouterLink}
+        to="/reports"
+        startIcon={<AssessmentIcon />}
+      >
+        Reports
       </Button>
       <IconButton
         size="large"

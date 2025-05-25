@@ -41,7 +41,7 @@ const Dashboard = () => {
     { date: '2023-03', portfolioValue: 107000, benchmark: 102000 },
     { date: '2023-04', portfolioValue: 110000, benchmark: 104000 },
     { date: '2023-05', portfolioValue: 120000, benchmark: 108000 },
-    { date: '2023-06', portfolioValue: 128459, benchmark: 112000 },
+    { date: '2023-06', portfolioValue: 108459, benchmark: 112000 },
   ];
 
   const assetAllocation = portfolio?.assetAllocation || [
